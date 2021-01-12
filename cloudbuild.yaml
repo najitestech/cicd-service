@@ -17,7 +17,6 @@ steps:
   - 'set'
   - 'image'
   - deployment
-  - 'deployment/${_DEPLOYMENTNAME}'
   #- '${_CONTAINERNAME}=gcr.io/${_PROJECT}/${_CONTAINERNAME}:${_VERSION}'
   #- '${_CONTAINERNAME}=gcr.io/${_PROJECT}/${_CONTAINERNAME}:${_VERSION}'
   env:
