@@ -16,6 +16,7 @@ steps:
   args:
   - 'set'
   - 'image'
+  - 'resource=${_PROJECT}/${_CONTAINERNAME}:${_VERSION}'
   #- '${_CONTAINERNAME}=gcr.io/${_PROJECT}/${_CONTAINERNAME}:${_VERSION}'
   #- '${_CONTAINERNAME}=gcr.io/${_PROJECT}/${_CONTAINERNAME}:${_VERSION}'
   env:
