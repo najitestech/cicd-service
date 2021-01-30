@@ -1,4 +1,5 @@
 steps:
+
 #First Clone from Google Cloud Source Repository  
 #- name: 'gcr.io/cloud-builders/git'
 #  args: ['clone','https://source.developers.google.com/p/${_PROJECT}/r/${_REPO_NAME}']
@@ -24,9 +25,9 @@ steps:
   
 substitutions:
     #GCP Specific configuration. Please DON'T change anything
-    _PROJECT: test-project-20200
+    _PROJECT: cloud-practice-dev
     _ZONE: us-central1-a
-    _GKE_CLUSTER: ntek-cluster
+    _GKE_CLUSTER: test-cluster
     
     #Repository Specific configuration. DevOps can change this settings
     _DEPLOYMENTNAME: hello-world-service
